@@ -37,6 +37,8 @@ description: >-
 
 [Dedaub - Governance Audit 3](https://dedaub.com/audits/liquity/liquity-v2-governance-3rd-audit-dec-22-2024/), January 2025
 
+[Recon - Liquity Security Review](https://github.com/GalloDaSballo/bold-review), March 2025
+
 ### Economic modelling and simulation
 
 [Chaos Labs: Mechanism Design Review](https://cdn.sanity.io/files/zmh9mnff/production/ca6a4815e62b05f33fb3ec56c5a4c42d6b7ddbec.pdf), October 2024
