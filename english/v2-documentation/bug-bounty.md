@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Bug Bounty
 
 A bug bounty program for Liquity’s smart contracts is now live. We intend for hackers to look for smart contract vulnerabilities in our system that can lead to loss of funds or locked components.

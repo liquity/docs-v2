@@ -14,6 +14,7 @@
 
 * [Technical Docs & Code Repository](v2-documentation/technical-resources.md)
 * [Friendly Fork Program](v2-documentation/friendly-fork-program.md)
+* [Bug Bounty - Cantina](v2-documentation/bug-bounty-cantina.md)
 * [Bug Bounty](v2-documentation/bug-bounty.md)
 * [Brand Assets](v2-documentation/brand-assets.md)
 * [Risk Disclosure](v2-documentation/risk-disclosure.md)
