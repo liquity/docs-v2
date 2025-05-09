@@ -1,7 +1,5 @@
 # Friendly Fork Program
 
-###
-
 <figure><img src="../.gitbook/assets/Fork Bingo Chart.png" alt=""><figcaption></figcaption></figure>
 
 ### Program Background
