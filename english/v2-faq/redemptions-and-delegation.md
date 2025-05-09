@@ -14,7 +14,7 @@ Redemptions start from the borrower paying the least interest.&#x20;
 
 Read more about how to [protect yourself ](redemptions-and-delegation.md#how-can-i-stay-protected)from redemptions and what happens if [you are redeemed](redemptions-and-delegation.md#what-happens-if-my-trove-gets-redeemed).
 
-You can also watchi this [9 min video](https://www.youtube.com/watch?v=CQVmjFx987A) on redemptions.
+You can also watch this [9 min video](https://www.youtube.com/watch?v=CQVmjFx987A) on redemptions.
 
 ### What happens if two Troves have the same IR? <a href="#docs-internal-guid-85409cf3-7fff-2712-b20f-92b229718cbb" id="docs-internal-guid-85409cf3-7fff-2712-b20f-92b229718cbb"></a>
 
