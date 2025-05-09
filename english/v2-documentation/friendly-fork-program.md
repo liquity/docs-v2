@@ -1,5 +1,9 @@
 # Friendly Fork Program
 
+###
+
+<figure><img src="../.gitbook/assets/Fork Bingo Chart.png" alt=""><figcaption></figcaption></figure>
+
 ### Program Background
 
 Liquity V2 is published under a [Business Source License (BUSL)](https://github.com/liquity/bold/blob/main/contracts/LICENSE) such that, while the codebase is source available, any commercial deployment needs to be approved by Liquity AG.&#x20;
@@ -95,7 +99,7 @@ You can learn more about the program in this [blog post](https://www.liquity.org
 * Stablecoin: USDQ
 * Governance Token: QUILL
 * Network: Scroll
-* Reward Details: [https://medium.com/@QuillFi/bold-incentives-7f8d99a741ef](https://medium.com/@QuillFi/bold-incentives-7f8d99a741ef)
+* Reward Details: [https://medium.com/@QuillFi/fueling-defi-quills-revamped-incentives-programs-926e4ffd9034](https://medium.com/@QuillFi/fueling-defi-quills-revamped-incentives-programs-926e4ffd9034)
 * Relevant Links: [Website](https://www.quill.finance/) | [Docs](https://quill-finance.gitbook.io/faq)
 
 **Virtue**
