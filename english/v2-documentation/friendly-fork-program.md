@@ -60,14 +60,6 @@ You can learn more about the program in this [blog post](https://www.liquity.org
 * Reward Details: TBD
 * Relevant Links: [Website ](https://usefelix.xyz/)| [Docs](https://usefelix.gitbook.io/felix-docs)
 
-**Ironclad Finance**
-
-* Stablecoin: iUSD
-* Governance Token: ICL
-* Network: Base, Mode
-* Reward Details: [https://x.com/IroncladFinance/status/1882117084949144034](https://x.com/IroncladFinance/status/1882117084949144034)
-* Relevant Links: [Website](https://www.ironclad.finance/) | [Docs](https://docs.ironclad.finance/)
-
 **Nerite**
 
 * Stablecoin: USDN
