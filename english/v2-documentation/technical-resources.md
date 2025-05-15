@@ -29,7 +29,7 @@ description: >-
 
 [Coinspect - Bold Governance Audit](https://www.coinspect.com/doc/Coinspect%20-%20Smart%20Contract%20Audit%20-%20Liquity%20-%20Bold%20Governance%20-%20v250120.pdf),  January 2025
 
-[ChainSecurity -Governance Smart Contract Audit](https://www.chainsecurity.com/security-audit/liquity-v2-governance), January 2025
+[ChainSecurity - Governance Smart Contract Audit](https://www.chainsecurity.com/security-audit/liquity-v2-governance), January 2025
 
 [Dedaub - Governance Audit 1](https://dedaub.com/audits/liquity/liquity-v2-governance-1st-audit-aug-12-2024/), August 2024
 
@@ -38,6 +38,8 @@ description: >-
 [Dedaub - Governance Audit 3](https://dedaub.com/audits/liquity/liquity-v2-governance-3rd-audit-dec-22-2024/), January 2025
 
 [Recon - Liquity Security Review](https://github.com/GalloDaSballo/bold-review), October 2024
+
+[ChainSecurity - Code Assesment](https://bafybeihar32i3mrphapdgureskvmugl5nfy7yhufliklpki4px7m2zjrte.ipfs.w3s.link/ChainSecurity_Liquity_Bold_audit.pdf) pre redeployment, May 2025
 
 ### Economic modelling and simulation
 
