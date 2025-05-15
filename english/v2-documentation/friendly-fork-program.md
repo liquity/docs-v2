@@ -84,21 +84,21 @@ The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a sc
 
 **Orki Finance**&#x20;
 
-* Launch: May 15th
+* Launch: LIVE
 * Stablecoin: USDK
 * Governance Token: ORKI
 * Network: Swell&#x20;
 * Reward Details: TBD
-* Relevant Links: website | docs (soon)
+* Relevant Links: [Website](https://www.orki.finance/) | [Docs](https://orki-finance.gitbook.io/orki-finance-docs)
 
-**SpiceUSD**
+**Soneta**
 
 * Launch: TBD
-* Stablecoin: SUSD
-* Governance Token: SPICE
-* Network: Blast
+* Stablecoin: ONE
+* Governance Token: STA
+* Network: Sonic&#x20;
 * Reward Details: TBD
-* Relevant Links:  [Website](https://spiceusd.xyz/) | [Docs](http://docs.spiceusd.xyz)
+* Relevant Links: [Website](https://soneta.xyz/) | [Docs](https://docs.soneta.xyz/)
 
 **Quill Finance**
 
