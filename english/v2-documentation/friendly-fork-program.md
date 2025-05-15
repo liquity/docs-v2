@@ -10,6 +10,13 @@ A number of friendly forks catering to blockchain networks and collateral asset 
 
 You can learn more about the program in this [blog post](https://www.liquity.org/blog/bootstrapping-liquity-v2).
 
+### Rewards
+
+All forks will reward BOLD users by incentivizing core use cases such as the main liquidity pools and the V2 Stability Pools.\
+While allocation size and execution will vary, each fork will share its plan in a dedicated announcement (linked below).
+
+The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a score based on their activity. Forks can use it as a reference when distributing rewards, though they are free to adjust parameters as they see fit.
+
 ### Licensed Friendly Forks
 
 **Aesyx**
