@@ -21,6 +21,7 @@ The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a sc
 
 **Aesyx**
 
+* Launch: TBD
 * Stablecoin: USXY
 * Governance Token: SXY
 * Network: Avalanche
@@ -29,6 +30,7 @@ The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a sc
 
 **Asymmetry Finance**
 
+* Launch: TBD
 * Stablecoin: USDaf
 * Governance Token: ASF
 * Network: Ethereum Mainnet
@@ -37,6 +39,7 @@ The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a sc
 
 **Beraborrow**
 
+* Launch: TBD
 * Stablecoin: NECT
 * Governance Token: POLLEN
 * Network: Berachain
@@ -45,6 +48,7 @@ The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a sc
 
 **DeFi Dollar**
 
+* Launch: TBD
 * Stablecoin: DUSD
 * Governance Token: DEFI
 * Network: Ethereum Mainnet
@@ -53,6 +57,7 @@ The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a sc
 
 **Ebisu Money**
 
+* Launch: TBD
 * Stablecoin: ebUSD
 * Governance Token: EBISU
 * Network: Ethereum Mainnet
@@ -61,6 +66,7 @@ The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a sc
 
 **Felix**
 
+* Launch: LIVE
 * Stablecoin: feUSD
 * Governance Token: TBD
 * Network: Hyperliquid
@@ -69,6 +75,7 @@ The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a sc
 
 **Nerite**
 
+* Launch: End of May
 * Stablecoin: USDN
 * Governance Token: NERI
 * Network: Arbitrum
@@ -77,6 +84,7 @@ The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a sc
 
 **Orki Finance**&#x20;
 
+* Launch: May 15th
 * Stablecoin: USDK
 * Governance Token: ORKI
 * Network: Swell&#x20;
@@ -85,6 +93,7 @@ The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a sc
 
 **SpiceUSD**
 
+* Launch: TBD
 * Stablecoin: SUSD
 * Governance Token: SPICE
 * Network: Blast
@@ -93,6 +102,7 @@ The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a sc
 
 **Quill Finance**
 
+* Launch: LIVE
 * Stablecoin: USDQ
 * Governance Token: QUILL
 * Network: Scroll
@@ -101,6 +111,7 @@ The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a sc
 
 **Virtue**
 
+* Launch: TBD
 * Stablecoin: vUSD
 * Governance Token: TBD
 * Network: IOTA
