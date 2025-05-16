@@ -101,6 +101,8 @@ Borrowers should set their rates based on their [redemption](redemptions-and-del
 
 Read more about setting your rates [here](https://www.liquity.org/blog/interest-rate-management-in-liquity-v2).
 
+Note that Troves with delegated interest rates face supplementary initial collateral ratio requirements, which limits their maximum LTV when opening or borrowing more; however, the maximum LTV before liquidation remains the same as non-delegated troves.
+
 ### Can I adjust the rate?
 
 Yes, you can always adjust your interest rate at any time. Since you as a user get to set your own interest rate, you have full autonomy over your borrowing costs.&#x20;
