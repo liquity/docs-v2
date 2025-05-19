@@ -36,6 +36,8 @@ Voting takes place during weekly epochs, which begin with the block on Ethereum 
 
 The voting process is divided into two categories: upvote for and downvote (veto). During each weekly epoch, upvotes and downvotes can be made for initiatives, though in the last 24 hours before the end of the epoch only downvotes are possible. In the final 24-hour period of each epoch, existing votes can still be removed and reallocated  to downvote initiatives.
 
+For proposals and discussions around initiatives, visit the [voting Discourse](https://voting.liquity.org/).
+
 Past voting rounds can be viewed in this Dune [dashboard](https://dune.com/liquity/protocol-incentivized-liquidity).
 
 ### Do I need to vote each week? <a href="#docs-internal-guid-c36c3153-7fff-1abc-8f12-2131b7c72d57" id="docs-internal-guid-c36c3153-7fff-1abc-8f12-2131b7c72d57"></a>
