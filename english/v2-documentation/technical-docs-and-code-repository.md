@@ -17,7 +17,7 @@ description: >-
 
 ### Audit reports
 
-[ChainSecurity - Core Protocol Audit Report](https://www.chainsecurity.com/security-audit/liquity-bold-smart-contracts), December 2024
+[ChainSecurity - Code Assessment](https://www.chainsecurity.com/security-audit/liquity-bold-smart-contracts), several audits between Aug 2024 and May 2025
 
 [Dedaub - Core Protocol Audit Report I](https://dedaub.com/audits/liquity/liquity-v2-aug-28-2024/), August 2024
 
