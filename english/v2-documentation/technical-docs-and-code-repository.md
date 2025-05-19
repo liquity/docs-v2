@@ -39,8 +39,6 @@ description: >-
 
 [Recon - Liquity Security Review](https://github.com/GalloDaSballo/bold-review), October 2024
 
-[ChainSecurity - Code Assesment](https://www.chainsecurity.com/security-audit/liquity-bold-smart-contracts-2) pre redeployment, May 2025
-
 [Dedaub - Cantina fixes review](https://dedaub.com/audits/liquity/liquity-v2-cantina-fixes-review-may-13-2025/), May 2025
 
 ### Economic modelling and simulation
