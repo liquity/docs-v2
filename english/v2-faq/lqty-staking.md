@@ -26,7 +26,7 @@ Example: if BOLD has a market cap of 200m and the average interest rate is 10%, 
 
 ### How do I vote on initiatives? <a href="#docs-internal-guid-02737f00-7fff-ee7a-06f6-83e67101000f" id="docs-internal-guid-02737f00-7fff-ee7a-06f6-83e67101000f"></a>
 
-To vote, you need to stake your LQTY on a frontend.
+To vote, you need to stake your LQTY on a [frontend](https://www.liquity.org/frontend-v2).
 
 Once staked, a user’s share of total protocol voting power is determined by a time-weighted calculation.
 
