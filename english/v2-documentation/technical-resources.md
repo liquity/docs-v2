@@ -1,4 +1,10 @@
-# Legacy Contract Addresses
+---
+description: >-
+  Here you can find the contract addresses for the V2 legacy deployment and the
+  Sepolia testnet.
+---
+
+# Legacy and Testnet
 
 #### BOLD Token
 

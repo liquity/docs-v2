@@ -17,5 +17,5 @@
 * [Bug Bounty - Cantina](v2-documentation/bug-bounty-cantina.md)
 * [Brand Assets](v2-documentation/brand-assets.md)
 * [Risk Disclosure](v2-documentation/risk-disclosure.md)
-* [Legacy and Testnet Contract Addresses](v2-documentation/technical-resources.md)
+* [Legacy and Testnet](v2-documentation/technical-resources.md)
 * [Audit upload](v2-documentation/audit-upload.md)
