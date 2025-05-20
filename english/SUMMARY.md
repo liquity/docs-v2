@@ -12,7 +12,7 @@
 
 ## Documentation <a href="#v2-documentation" id="v2-documentation"></a>
 
-* [Technical Docs & Code Repository](v2-documentation/technical-docs-and-code-repository.md)
+* [Technical Docs & Audits](v2-documentation/technical-docs-and-audits.md)
 * [Friendly Fork Program](v2-documentation/friendly-fork-program.md)
 * [Bug Bounty - Cantina](v2-documentation/bug-bounty-cantina.md)
 * [Brand Assets](v2-documentation/brand-assets.md)
