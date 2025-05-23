@@ -87,7 +87,7 @@ To open a new Trove, the protocol requires a liquidation reserve of 0.0375 ETH r
 
 ### How much will I pay for my loan?
 
-In Liquity V2, there are no upfront fees. Instead, you pay interest on an ongoing basis, making it suitable for short-term loans as well.
+In Liquity V2, you pay interest on an ongoing basis, making it suitable for short-term loans as well.
 
 The interest you pay is determined by the rate you set yourself. For example, if you borrow 10,000 BOLD at a 5% interest rate, you'll pay \~500 BOLD in interest after one year. This interest is added to your outstanding debt.
 
