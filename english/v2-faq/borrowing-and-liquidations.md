@@ -91,6 +91,8 @@ In Liquity V2, you pay interest on an ongoing basis, making it suitable for shor
 
 The interest you pay is determined by the rate you set yourself. For example, if you borrow 10,000 BOLD at a 5% interest rate, you'll pay \~500 BOLD in interest after one year. This interest is added to your outstanding debt.
 
+When first opening the loan you pay an Upfront Borrowing Fee. This fee is calculated as 7 days’ worth of average interest on the respective collateral branch. By applying this fee, borrowers are discouraged from continually closing and reopening Troves to evade redemptions, as it increases the cost of frequent adjustments.
+
 ### What are user-set rates?
 
 In Liquity V2, users can set their own interest rates, giving them full control over costs and improving predictability. This feature allows for adaptability to various market conditions and helps stabilize BOLD's peg.
@@ -107,7 +109,7 @@ Note that Troves with delegated interest rates face supplementary initial collat
 
 Yes, you can always adjust your interest rate at any time. Since you as a user get to set your own interest rate, you have full autonomy over your borrowing costs.&#x20;
 
-Note however, that a fee corresponding to 7 days of average interest is charged when opening the loan, as well as on any rate adjustments that happen less than 7 days after the last adjustment. Without it, low-interest rate borrowers could evade redemptions by sandwiching a redemption transaction with both an upward and downward interest rate adjustment, which in turn would unduly direct the redemption against higher-interest borrowers.
+Note however, that a Premature Adjustment Fee is charges when a borrower changed their interest rate sooner than 7 days after the last adjustment.  This mechanism prevents borrowers from rapidly adjusting their rates to avoid being prioritized in redemption processes, especially when rates are moving toward their redemption thresholds.
 
 ### How do I decide on the right rate for me?
 
