@@ -200,3 +200,14 @@ The removal of Recovery Mode in V2 ensures that borrowers can benefit from a per
 In Liquity V1 it is mainly needed due to a lack of sustainable yield for the Stability Pool, increasing the reliance on redistribution for liquidations in the long term. Liquity V2 pays out a real yield, and aims to keep the Stability Pools backing sufficiently large through its adaptive redemption logic.
 
 As a replacement for the Recovery Mode, the system may shut down borrow markets whose total collateralization ratio (TCR) falls below 110% (for ETH) or 120% (for wstETH and rETH). The shutdown is performed by incentivizing redemptions against the respective collateral (see [this](https://liquity.gitbook.io/v2-whitepaper/liquity-v2-whitepaper/functionality-and-use-cases#c9aukpugrj32) for more details)
+
+Additionally, when the TCR of a branch falls below its "Critical Collateral Ratio” (CCR), the system imposes extra restrictions on borrowing in order to maintain system health and branch overcollateralization.
+
+When the branch TCR falls below the CCR of 150%, these borrowing restrictions apply:
+
+* Opening a Trove: only allowed if it brings the resulting TCR > 150%
+* Closing a Trove: only allowed if it brings the resulting TCR > 150%
+* Adjusting a Trove: any new borrowing must bring the resulting TCR > 150%, and any collateral withdrawal of value $x USD must be matched by a repayment of at least x BOLD
+* Adjusting a Trove’s interest rate: only allowed if it doesn’t mint new debt via a premature adjustment fee
+
+\
