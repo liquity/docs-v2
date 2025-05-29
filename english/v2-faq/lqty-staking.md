@@ -68,11 +68,11 @@ A new amount added to a pre-existing stake starts off with a voting power of 0 (
 
 ### How are new initiatives proposed? <a href="#docs-internal-guid-3bc52c98-7fff-48a0-f2fa-6bc1e30a444d" id="docs-internal-guid-3bc52c98-7fff-48a0-f2fa-6bc1e30a444d"></a>
 
-Any user having at least 0.01% of the total voting power of all LQTY staked and paying the registration fee of 1'000 BOLD can propose new incentives.
+Any user having at least 0.01% of the total voting power of all LQTY staked and paying the registration fee of 100 BOLD can propose new incentives.
 
 Technically, any Ethereum address can receive Protocol Liquidity Incentives, but it is generally advisable to create a smart contract for the initiative, which contains any logic necessary to direct any received funds which will be paid in BOLD. This contract should be properly reviewed and audited by the proposer to ensure that it is secure and will work as intended.
 
-The proposer should deploy the initiative to Ethereum, and then call `registerInitiative(address _initiative)` on the `Governance.sol` contract, paying 1'000 BOLD for registration.
+The proposer should deploy the initiative to Ethereum, and then call `registerInitiative(address _initiative)` on the `Governance.sol` contract, paying 100 BOLD for registration.
 
 Once registered, the initiative can be voted upon in the following epoch. For efficiency reasons, only initiatives which would receive a minimum 2% of the votes are eligible. Initiatives failing to reach this threshold during four or more consecutive epochs may be permissionlessly unregistered.
 
