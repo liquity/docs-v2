@@ -4,7 +4,7 @@ description: >-
   descriptions, and more is available in the V2 developer README.
 ---
 
-# Technical Docs & Code Repository
+# Technical Docs & Audits
 
 ### Technical papers
 
@@ -40,6 +40,8 @@ description: >-
 [Recon - Liquity Security Review](https://github.com/GalloDaSballo/bold-review), October 2024
 
 [Dedaub - Cantina fixes review](https://dedaub.com/audits/liquity/liquity-v2-cantina-fixes-review-may-13-2025/), May 2025
+
+[Cantina Competiton](https://cantina.xyz/portfolio/fca4f98a-7d24-49f1-9a3b-80e5e65b2b30), March-April 2025
 
 ### Economic modelling and simulation
 
