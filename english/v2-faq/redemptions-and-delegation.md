@@ -75,7 +75,7 @@ Upon each redemption of x BOLD: `baseRate` is decayed based on time passed since
 
 The redemption fee percentage is given by `min (0.5%  + baseRate, 100%)`.
 
-<figure><img src="../.gitbook/assets/redem.png" alt=""><figcaption><p>The redemption fee (red line) follows this dynamic over time as redemptions occur (blue bars).</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/red.png" alt=""><figcaption></figcaption></figure>
 
 ### How can I stay protected?
 
@@ -113,11 +113,11 @@ Borrowers should thus keep an eye on the interest rate range and the maximum upd
 
 Coming soon.
 
-| Entity | Collateral Asset | Delegate Address | Description |
-| ------ | ---------------- | ---------------- | ----------- |
-|        |                  |                  |             |
-|        |                  |                  |             |
-|        |                  |                  |             |
+| Entity                                                                | Collateral Asset | Strategies |
+| --------------------------------------------------------------------- | ---------------- | ---------- |
+| [Bolder Cash](https://bolder.cash/rate-strategies?f=bold\&c=combined) | All              | 3          |
+| [Trove Zero](https://trovezero.xyz/)                                  | All              | 1          |
+| [Summerstone](https://summerstone.xyz/docs/for-users)                 | All              | 1          |
 
 _Note that Liquity AG is not responsible for the actions of any delegates. Please do your own research._
 
