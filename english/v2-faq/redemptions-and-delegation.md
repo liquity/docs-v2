@@ -111,8 +111,6 @@ Borrowers should thus keep an eye on the interest rate range and the maximum upd
 
 ### Who are the current active interest rate delegates? <a href="#docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597" id="docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597"></a>
 
-Coming soon.
-
 | Entity                                                                | Collateral Asset | Strategies |
 | --------------------------------------------------------------------- | ---------------- | ---------- |
 | [Bolder Cash](https://bolder.cash/rate-strategies?f=bold\&c=combined) | All              | 3          |
