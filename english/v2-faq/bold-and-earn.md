@@ -77,11 +77,10 @@ It is important to note that all BOLD holders including depositors still remain 
 
 sBOLD is an auto-compounded Stability Pool vault built and maintained by K3 Capital, a third-party team. It is designed to automate reward reinvestment for users who deposit BOLD into the Liquity V2 Stability Pool.
 
-Disclaimer: sBOLD is not developed or maintained by the Liquity core team. Please review the audits and codebase before interacting with the contracts.
+* Token address: [0x50bd66d59911f5e086ec87ae43c811e0d059dd11](https://etherscan.io/address/0x50bd66d59911f5e086ec87ae43c811e0d059dd11)
+* DeDaub audit: [https://dedaub.com/audits/k3-capital/sbold-may-19-2025/](https://dedaub.com/audits/k3-capital/sbold-may-19-2025/)
+* ChainSecurity audit: [https://www.chainsecurity.com/security-audit/k3-sbold](https://www.chainsecurity.com/security-audit/k3-sbold)
+* Code: [https://github.com/K3Capital/sBOLD](https://github.com/K3Capital/sBOLD)
+* Telegram: [sBOLD Offical](https://t.me/sBOLDofficial)
 
-* Token address: 0x50bd66d59911f5e086ec87ae43c811e0d059dd11
-* DeDaub audit :https://dedaub.com/audits/k3-capital/sbold-may-19-2025/
-* ChainSecurity audit : https://www.chainsecurity.com/security-audit/k3-sbold
-* Code: https://github.com/K3Capital/sBOLD
-
-Official TG group: t.me/sBOLDofficial\
+_Disclaimer: sBOLD is not developed or maintained by the Liquity core team. Please review the audits and codebase before interacting with the contracts._\
