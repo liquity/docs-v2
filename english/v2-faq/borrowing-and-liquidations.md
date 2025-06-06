@@ -210,4 +210,14 @@ When the branch TCR falls below the CCR of 150%, these borrowing restrictions ap
 * Adjusting a Trove: any new borrowing must bring the resulting TCR > 150%, and any collateral withdrawal of value $x USD must be matched by a repayment of at least x BOLD
 * Adjusting a Trove’s interest rate: only allowed if it doesn’t mint new debt via a premature adjustment fee
 
+### What to do if I have issues with a frontend?
+
+This is usually caused by ISP or DNS-based geofencing. Try the following:
+
+* Switch to a different [frontend](https://www.liquity.org/frontend-v2) provider
+* Change your VPN location (or turn it off)
+* Change the RPC in your wallet
+* Tether using mobile data
+* Disable "secure DNS" in your browser settings
+
 \
