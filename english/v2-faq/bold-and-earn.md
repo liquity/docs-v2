@@ -71,4 +71,19 @@ Users can deposit their stablecoins into the Stability Pool of their choice, ali
 
 By offering separate pools for different collateral types, the system allows users to choose their exposure based on the perceived risk and potential returns of each LST or ETH. This compartmentalization helps manage systemic risk, ensuring that impacts from liquidations in one asset class don't disproportionately affect the entire ecosystem.
 
-It is important to note that all BOLD holders including depositors still remain dependent on BOLD to keep its peg, remaining exposed to both all LSTs and ETH.\
+It is important to note that all BOLD holders including depositors still remain dependent on BOLD to keep its peg, remaining exposed to both all LSTs and ETH.
+
+### What is sBOLD?
+
+sBOLD is an auto-compounded Stability Pool vault built and maintained by K3 Capital, a third-party team. It is designed to automate reward reinvestment for users who deposit BOLD into the Liquity V2 Stability Pool.
+
+Disclaimer: sBOLD is not developed or maintained by the Liquity core team. Please review the audits and codebase before interacting with the contracts.
+
+sBOLD token address: 0x50bd66d59911f5e086ec87ae43c811e0d059dd11\
+Audits & Code:
+
+* DeDaub:https://dedaub.com/audits/k3-capital/sbold-may-19-2025/
+* ChainSecurity: https://www.chainsecurity.com/security-audit/k3-sbold
+* Code: https://github.com/K3Capital/sBOLD
+
+Official TG group: t.me/sBOLDofficial\
