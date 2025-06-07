@@ -72,20 +72,14 @@ Any user having at least 0.01% of the total voting power of all LQTY staked and 
 
 Technically, any Ethereum address can receive Protocol Liquidity Incentives, but it is generally advisable to create a smart contract for the initiative, which contains any logic necessary to direct any received funds which will be paid in BOLD. This contract should be properly reviewed and audited by the proposer to ensure that it is secure and will work as intended.
 
-\[NEW]
-
 Once the initiative is deployed it can be registered.
 
-&#x20;[Here](https://etherscan.io/address/0x6440f144b7e50D6a8439336510312d2F54beB01D#writeContract) you need to call the `approve` function:
+&#x20;First, call the `approve` function [here](https://etherscan.io/address/0x6440f144b7e50D6a8439336510312d2F54beB01D#writeContract):
 
 * Enter the `spender` address: `0x807DEf5E7d057DF05C796F4bc75C3Fe82Bd6EeE1`
 * Enter at least 100 BOLD (100 \* 1e18) under `amount`
 
 Then register it [here](https://etherscan.io/address/0x807def5e7d057df05c796f4bc75c3fe82bd6eee1#writeContract) by entering your `_initiative` address under `registerInitiative`
-
-\[OLD]
-
-The proposer should deploy the initiative to Ethereum, and then call `registerInitiative(address _initiative)` on the `Governance.sol` contract, paying 100 BOLD for registration.
 
 Once registered, the initiative can be voted upon in the following epoch. For efficiency reasons, only initiatives which would receive a minimum 2% of the votes are eligible. Initiatives failing to reach this threshold during four or more consecutive epochs may be permissionlessly unregistered.
 
