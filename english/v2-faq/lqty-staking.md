@@ -76,7 +76,7 @@ Technically, any Ethereum address can receive Protocol Liquidity Incentives, but
 
 Once the initiative is deployed it can be registered.
 
-&#x20;[Here](https://etherscan.io/address/0x6440f144b7e50D6a8439336510312d2F54beB01D#writeContract) you need to call the`approve` function entering:
+&#x20;[Here](https://etherscan.io/address/0x6440f144b7e50D6a8439336510312d2F54beB01D#writeContract) you need to call the`approve` function:
 
 * Enter the `spender` address: `0x807DEf5E7d057DF05C796F4bc75C3Fe82Bd6EeE1`
 * Enter at least 100 BOLD (100 \* 1e18) under `amount`
