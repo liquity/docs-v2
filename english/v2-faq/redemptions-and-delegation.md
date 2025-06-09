@@ -123,6 +123,18 @@ _Note that Liquity AG is not responsible for the actions of any delegates. Pleas
 
 Your Trove would not be affected - the only thing would get affected is the interest rate at which your position is set.
 
+### Can I delegate to myself?
+
+Yes, some users delegate voting rights to their **hot wallets** so they can adjust on the go (e.g. while traveling).
+
+To do it:
+
+1. Find the collateral branch of your loan [here](https://docs.liquity.org/v2-documentation/technical-docs-and-audits#eth-branch).&#x20;
+2. Click on the `borrowerOperations` link of the right branch.
+3. On Etherscan, go to the Contract tab → Write Contract → Connect Wallet.
+4. Find the `setInterestIndividualDelegate` function.
+5. Fill in the required fields and click Write.
+
 ### Why are redemptions not a feature of both LTV & interest rate, but only interest rate? <a href="#docs-internal-guid-61a948e4-7fff-84a3-24cb-31bc5739c81a" id="docs-internal-guid-61a948e4-7fff-84a3-24cb-31bc5739c81a"></a>
 
 Given that the _raison d’etre_ for redemptions is to diminish BOLD supply in response to reduced demand, and interest rates drive demand, rate-based redemption processing is a more sustainable and effective lever to reach market equilibrium. Actively managing for both interest rate and LTV would weaken the ability to enforce market-level interest rates and deposit yields, while complicating the process for the system and its users
