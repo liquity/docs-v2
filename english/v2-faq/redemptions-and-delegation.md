@@ -125,7 +125,7 @@ Your Trove would not be affected - the only thing would get affected is the inte
 
 ### Can I delegate to myself?
 
-Yes, some users delegate voting rights to their **hot wallets** so they can adjust on the go (e.g. while traveling).
+Yes, some users delegate voting rights to their hot wallets so they can adjust on the go (e.g. while traveling).
 
 To do it:
 
