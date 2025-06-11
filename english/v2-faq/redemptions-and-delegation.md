@@ -65,6 +65,18 @@ Here is an example: given outside debt amounts of 100 BOLD, 50 BOLD and 100 BOLD
 
 <figure><img src="../.gitbook/assets/redeem2.png" alt=""><figcaption></figcaption></figure>
 
+### What happens if several Troves have the same interest rate?
+
+When rates are identical, the protocol uses "last-in-first-redeemed". The last to set their rate (either by opening or rate adjustment) gets redeemed first.
+
+Example:
+
+* Trove A - 3%
+* Trove B - 4% (adjusted earlier)
+* Trove C - 4% (adjusted later)
+
+The redemption order will be A, C, B.
+
 ### Is there a redemption fee?
 
 Yes. The redemption fee mechanics are broadly the same as in Liquity V1, but with adapted parametrization leading to a faster fee decay. The redemption fee is taken as a cut of the total ETH/LST drawn from the system in a redemption. Contrary to V1, the fee does not go to the LQTY stakers but stays with the users as part of their collateral.
