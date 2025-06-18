@@ -127,13 +127,19 @@ Borrowers should thus keep an eye on the interest rate range and the maximum upd
 
 _Note that Liquity AG is not responsible for the actions of any delegates. Please do your own research._
 
+### What happens when I change delegates? <a href="#docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597" id="docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597"></a>
+
+You will join that delegate's batch inheriting its interest rate.
+
+You will be also charged the upfront fee, this is in place to stop "batch hopping" - more [info](https://github.com/liquity/bold?tab=readme-ov-file#batches-and-upfront-fees).
+
 ### What happens if there are issues with the smart contract for delegating interest rates? <a href="#docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597" id="docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597"></a>
 
 Your Trove would not be affected - the only thing would get affected is the interest rate at which your position is set.
 
-### Can I delegate to myself?
+### How can I delegate to myself?
 
-Yes, some users delegate voting rights to their hot wallets so they can adjust on the go (e.g. while traveling).
+Some users delegate voting rights to their hot wallets so they can adjust on the go (e.g. while traveling).
 
 To do it:
 
