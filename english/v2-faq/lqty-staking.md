@@ -6,6 +6,8 @@ Staking your LQTY in Liquity V2 unlocks a unique, dual-reward opportunity. Not o
 
 Besides voting power, voters may receive payments (“bribes”) from external initiatives.
 
+Check this guide on [how to stake](https://x.com/LiquityProtocol/status/1936885520203956391).
+
 ### Is there a lock-up? <a href="#docs-internal-guid-4dbf0bb4-7fff-5281-01ca-d74c5c49d1c1" id="docs-internal-guid-4dbf0bb4-7fff-5281-01ca-d74c5c49d1c1"></a>
 
 No, there is no lock-up. You can withdraw the LQTY at any time.
@@ -100,4 +102,8 @@ Initiatives, which have more upvotes than the relative threshold of 2%, and rece
 ### What happens to inactive or unpopular initiatives?
 
 Initiatives that fail to reach the qualifying threshold or the minimum weekly claim for more 4 consecutive epochs (weeks) can be deregistered by anyone.
+
+### I get a new contract warning in my wallet
+
+Liquity V2 uses a proxy pattern for staking, creating a new "UserProxy" contract when someone stakes LQTY for the first time. Because of this some wallets can flag this as a "new contract warning".
 
