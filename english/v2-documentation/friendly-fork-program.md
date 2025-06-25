@@ -111,17 +111,6 @@ The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a sc
 * Reward Details: [https://medium.com/@QuillFi/fueling-defi-quills-revamped-incentives-programs-926e4ffd9034](https://medium.com/@QuillFi/fueling-defi-quills-revamped-incentives-programs-926e4ffd9034)
 * Relevant Links: [Website](https://www.quill.finance/) | [Docs](https://quill-finance.gitbook.io/faq)
 
-**Virtue**
-
-* Launch: TBD
-* Stablecoin: vUSD
-* Governance Token: TBD
-* Network: IOTA
-* Reward Details: TBD
-* Relevant Links: [Website](https://virtue.money/)
-
-There are 15+ forks with signed contracts. Details will be added as those become public.
-
 ### Program Rules
 
 All friendly forks are responsible for communicating the details and implementation of their commitments, as well as distributing any program rewards.
