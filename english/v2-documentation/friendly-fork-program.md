@@ -1,8 +1,6 @@
 # Friendly Fork Program
 
-
-
-<div data-full-width="true"><figure><img src="../.gitbook/assets/Liquity V2 – Friendly Forks now.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/upd Liquity V2 – Friendly Forks now.png" alt=""><figcaption></figcaption></figure>
 
 ### Program Background
 
