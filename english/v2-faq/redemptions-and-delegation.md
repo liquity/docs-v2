@@ -91,7 +91,7 @@ The risk of redemption depends on two factors: the interest rate you set and the
 
 **The interest rate** you set determines how much BOLD must be redeemed before it's your turn.  The higher your rate, the more BOLD is redeemable before you, and vice versa.
 
-You can see this on any frontned, in the example below the number is 41M.
+You can see this on any frontend, in the example below the number is 41M.
 
 <figure><img src="../.gitbook/assets/rerwere.png" alt=""><figcaption></figcaption></figure>
 
