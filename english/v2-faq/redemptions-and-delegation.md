@@ -4,13 +4,13 @@
 
 Redemptions serve the crucial purpose of keeping BOLD pegged to the US Dollar, creating a price floor around $1. They do this in a decentralized way without reliance on centralized assets or 3rd parties.
 
-A redemption is essentially swapping BOLD for ETH/LST at face value, as if 1 BOLD is exactly worth $1. Redemptions can be initiated by anyone, but are only profitable when BOLD <$1.&#x20;
+A redemption is essentially swapping BOLD for ETH/LST at face value, as if 1 BOLD is exactly worth $1. Redemptions can be initiated by anyone, but are only profitable when BOLD <$1.
 
-The redeemer sends BOLD to the protocol and in return  gets a mix of WETH, wstETH and rETH (minus the redemption fee). The redeemed amount is split among the different collateral assets based on their current Stability Pool backing (see [link](redemptions-and-delegation.md#docs-internal-guid-6cda6d73-7fff-78b8-1c4f-6cb96385a98a) for more info).
+The redeemer sends BOLD to the protocol and in return gets a mix of WETH, wstETH and rETH (minus the redemption fee). The redeemed amount is split among the different collateral assets based on their current Stability Pool backing (see [link](redemptions-and-delegation.md#docs-internal-guid-6cda6d73-7fff-78b8-1c4f-6cb96385a98a) for more info).
 
 <figure><img src="../.gitbook/assets/light - BOLD individual redemption.png" alt=""><figcaption></figcaption></figure>
 
-Redemptions start from the borrower paying the least interest.&#x20;
+Redemptions start from the borrower paying the least interest.
 
 Read more about how to [protect yourself ](redemptions-and-delegation.md#how-can-i-stay-protected)from redemptions and what happens if [you are redeemed](redemptions-and-delegation.md#what-happens-if-my-trove-gets-redeemed).
 
@@ -28,7 +28,7 @@ Any Ethereum address can initiate a redemption, provided that they have a suffic
 
 You can think of redemptions as if somebody else is repaying your debt and retrieving an equivalent amount of your collateral in return.
 
-If your collateral (ETH or LST) is redeemed, an equivalent amount of your debt in USD terms is repaid. The redeemer receives your collateral, less the redemption fee, which remains  in your Trove. This means that at the time of redemption you have not lost any money in USD terms, likely even made a small gain with the received redemption fee as the peg recovers.
+If your collateral (ETH or LST) is redeemed, an equivalent amount of your debt in USD terms is repaid. The redeemer receives your collateral, less the redemption fee, which remains in your Trove. This means that at the time of redemption you have not lost any money in USD terms, likely even made a small gain with the received redemption fee as the peg recovers.
 
 Example with ETH at $3'000:
 
@@ -51,13 +51,11 @@ In this example, the rETH market shows a full redemption of the first Trove and 
 
 ### How is the collateral split determined?
 
-The split is dynamic, optimizing for the economic safety of the system. The logic is straightforward: the riskier a collateral is, the more redemption volume is directed to that market. In other words, if a market's Stability Pool is relatively small compared to its total debt, it's considered riskier, as there's a higher likelihood of bad debt occurring in extreme events.&#x20;
+The split is dynamic, optimizing for the economic safety of the system. The logic is straightforward: the riskier a collateral is, the more redemption volume is directed to that market. In other words, if a market's Stability Pool is relatively small compared to its total debt, it's considered riskier, as there's a higher likelihood of bad debt occurring in extreme events.
 
 To mitigate this risk, the system redeems proportionally to the "outside debt" of each collateral type. This is calculated as the total debt borrowed against a specific collateral minus the size of the Stability Pool for that borrowing market.
 
 Here is an example: given outside debt amounts of 100 BOLD, 50 BOLD and 100 BOLD respectively, a redemption will result in a 40% (WETH), 20% (wstETH) and 40% (rETH) split.
-
-
 
 <figure><img src="../.gitbook/assets/redeem2.png" alt=""><figcaption></figcaption></figure>
 
@@ -81,7 +79,7 @@ Redemption fees are based on the `baseRate` state variable, which is dynamically
 
 Upon each redemption of x BOLD: `baseRate` is decayed based on time passed since the last fee event and incremented by an amount proportional to the fraction of the total BOLD supply to be redeemed, i.e. `x/total_bold_supply`
 
-The redemption fee percentage is given by `min (0.5%  + baseRate, 100%)`.
+The redemption fee percentage is given by `min (0.5% + baseRate, 100%)`.
 
 <figure><img src="../.gitbook/assets/red.png" alt=""><figcaption></figcaption></figure>
 
@@ -89,7 +87,7 @@ The redemption fee percentage is given by `min (0.5%  + baseRate, 100%)`.
 
 The risk of redemption depends on two factors: the interest rate you set and the price of BOLD.
 
-**The interest rate** you set determines how much BOLD must be redeemed before it's your turn.  The higher your rate, the more BOLD is redeemable before you, and vice versa.
+**The interest rate** you set determines how much BOLD must be redeemed before it's your turn. The higher your rate, the more BOLD is redeemable before you, and vice versa.
 
 You can see this on any frontend, in the example below the number is 41M.
 
@@ -97,33 +95,34 @@ You can see this on any frontend, in the example below the number is 41M.
 
 This means that 41M BOLD must be removed from the system before it would reach you. However, this number is relative, and you also need to consider recent redemption activity. While past events don't guarantee future outcomes, they can serve as a useful guide.
 
-For example, if only 200K BOLD were redeemed in the last week, you're comparatively safer than if 15M were redeemed. You can monitor past redemptions in our [Dune dashboard. ](https://dune.com/liquity/liquity-v2#redemptions)
+For example, if only 200K BOLD were redeemed in the last week, you're comparatively safer than if 15M were redeemed. You can monitor past redemptions in our [Dune dashboard.](https://dune.com/liquity/liquity-v2#redemptions)
 
-**The price of BOLD** is the second crucial factor. When it trades above $1, redemptions become unprofitable and should cease. If demand for BOLD is strong, it can maintain a price above $1 for an extended period, as was often the case for LUSD.&#x20;
+**The price of BOLD** is the second crucial factor. When it trades above $1, redemptions become unprofitable and should cease. If demand for BOLD is strong, it can maintain a price above $1 for an extended period, as was often the case for LUSD.
 
 During such times, you can comfortably reduce the interest rate you're paying without increasing your risk of redemption.
 
 ### What is delegation of interest rates?
 
-Interest rate delegation is a feature in Liquity V2 that allows borrowers to delegate the management of their interest rate to a third party. This enables them to create a passive, hands-off position, while still keeping a competitive rate and low redemption risk.&#x20;
+Interest rate delegation is a feature in Liquity V2 that allows borrowers to delegate the management of their interest rate to a third party. This enables them to create a passive, hands-off position, while still keeping a competitive rate and low redemption risk.
 
 There are three types of delegations:
 
 * To a third party manager: A specialized entity which provides predetermined strategies for batches of multiple Troves and charges a fee for the service
-* To an automated and decentralized contract strategy: A predefined strategy managing interest rates in an autonomous manner&#x20;
+* To an automated and decentralized contract strategy: A predefined strategy managing interest rates in an autonomous manner
 * To your own wallet: Delegate to a hot wallet when on vacation, or to a friend
 
 It is important to note that a delegate or contract strategy can do nothing else but set the interest rate in a predetermined range, significantly limiting the risks of the borrowers.
 
-Borrowers should thus keep an eye on the interest rate range and the maximum update frequency (relevant in case of premature adjustments) preset by the manager.&#x20;
+Borrowers should thus keep an eye on the interest rate range and the maximum update frequency (relevant in case of premature adjustments) preset by the manager.
 
 ### Who are the current active interest rate delegates? <a href="#docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597" id="docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597"></a>
 
-| Entity                                                                | Collateral Asset | Strategies |
-| --------------------------------------------------------------------- | ---------------- | ---------- |
-| [Bolder Cash](https://bolder.cash/rate-strategies?f=bold\&c=combined) | All              | 3          |
-| [Trove Zero](https://trovezero.xyz/)                                  | All              | 1          |
-| [Summerstone](https://summerstone.xyz/docs/for-users)                 | All              | 1          |
+| Entity                                                                              | Collateral Asset | Strategies |
+| ----------------------------------------------------------------------------------- | ---------------- | ---------- |
+| [Bolder Cash](https://bolder.cash/rate-strategies?f=bold\&c=combined)               | All              | 3          |
+| [Trove Zero](https://trovezero.xyz/)                                                | All              | 1          |
+| [Summerstone](https://summerstone.xyz/docs/for-users)                               | All              | 1          |
+| [Autonomous Rate Manager](https://www.liquity.org/blog/autonomous-interest-manager) | All              | 1          |
 
 _Note that Liquity AG is not responsible for the actions of any delegates. Please do your own research._
 
@@ -143,7 +142,7 @@ Some users delegate voting rights to their hot wallets so they can adjust on the
 
 To do it:
 
-1. Find the collateral branch of your loan [here](https://docs.liquity.org/v2-documentation/technical-docs-and-audits#eth-branch).&#x20;
+1. Find the collateral branch of your loan [here](https://docs.liquity.org/v2-documentation/technical-docs-and-audits#eth-branch).
 2. Click on the `borrowerOperations` link of the right branch.
 3. On Etherscan, go to the Contract tab → Write Contract → Connect Wallet.
 4. Find the `setInterestIndividualDelegate` function.
