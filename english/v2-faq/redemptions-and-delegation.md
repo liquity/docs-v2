@@ -28,7 +28,7 @@ Any Ethereum address can initiate a redemption, provided that they have a suffic
 
 You can think of redemptions as if somebody else is repaying your debt and retrieving an equivalent amount of your collateral in return.
 
-If your collateral (ETH or LST) is redeemed, an equivalent amount of your debt in USD terms is repaid. The redeemer receives your collateral, less the redemption fee, which remains in your Trove. This means that at the time of redemption you have not lost any money in USD terms, likely even made a small gain with the received redemption fee as the peg recovers.
+If your collateral (ETH or LST) is redeemed, an equivalent amount of your debt in USD terms is repaid. The redeemer receives your collateral, less the redemption fee, which remains in your Trove. This means that at the time of redemption you likely incurred a manimal loss in USD terms.
 
 Example with ETH at $3'000:
 
