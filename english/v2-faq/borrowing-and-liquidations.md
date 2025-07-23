@@ -18,6 +18,10 @@ Choosing a frontend is a personal decision that depends on various factors, incl
 
 You can choose one here: [https://www.liquity.org/frontend-v2](https://www.liquity.org/frontend-v2)
 
+### Can I run my own local instance?
+
+Yes, you can, just follow the instructions here: [https://github.com/liquity/bold/tree/main/frontend/app](https://github.com/liquity/bold/tree/main/frontend/app)
+
 ### What is a Trove?&#x20;
 
 A Trove is Liquity’s version of a 'vault'. Each Trove is linked to an Ethereum address, and each address can have multiple Troves.
