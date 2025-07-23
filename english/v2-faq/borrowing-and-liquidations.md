@@ -20,7 +20,7 @@ You can choose one here: [https://www.liquity.org/frontend-v2](https://www.liqui
 
 ### Can I run my own local instance?
 
-Yes, you can, just follow the instructions here: [https://github.com/liquity/bold/tree/main/frontend/app](https://github.com/liquity/bold/tree/main/frontend/app)
+Yes you can, just follow the instructions here: [https://github.com/liquity/bold/tree/main/frontend/app](https://github.com/liquity/bold/tree/main/frontend/app)
 
 ### What is a Trove?&#x20;
 
