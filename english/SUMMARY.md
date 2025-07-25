@@ -14,6 +14,7 @@
 
 * [Technical Docs & Audits](v2-documentation/technical-docs-and-audits.md)
 * [Friendly Fork Program](v2-documentation/friendly-fork-program.md)
+* [Copy of Friendly Fork Program](v2-documentation/friendly-fork-program-1.md)
 * [Bug Bounty](v2-documentation/bug-bounty.md)
 * [Security](v2-documentation/security.md)
 * [Brand Assets](v2-documentation/brand-assets.md)
