@@ -6,7 +6,7 @@
 
 [**Forqty**](https://www.forqty.com/) provides an overview of all launched and upcoming forks.
 
-The fork airdrop points can be seen on the [**V2 Leaderboard**](https://dune.com/liquity/v2-leaderboard)**.**
+Your fork airdrop points can be seen on the [**V2 Leaderboard**](https://dune.com/liquity/v2-leaderboard)**.**
 
 The [**Yield Calculator**](https://docs.google.com/spreadsheets/d/1Zi_2rU7Ktwd4qF9AZuFbgz7W8uIEN6ta5n-LHOE44oM/edit?gid=0#gid=0) can be used to estimate your APR based on data you can enter.
 
