@@ -1,10 +1,6 @@
----
-hidden: true
----
+# Friendly Fork Program
 
-# Copy of Friendly Fork Program
-
-<figure><img src="../.gitbook/assets/upd2 Liquity V2 – Friendly Forks now.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Group 2832.png" alt=""><figcaption></figcaption></figure>
 
 ### Resources
 

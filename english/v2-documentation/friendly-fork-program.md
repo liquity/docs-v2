@@ -1,4 +1,8 @@
-# Friendly Fork Program
+---
+hidden: true
+---
+
+# \[Old] Friendly Fork Program
 
 <figure><img src="../.gitbook/assets/upd2 Liquity V2 – Friendly Forks now.png" alt=""><figcaption></figcaption></figure>
 
