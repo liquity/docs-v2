@@ -2,11 +2,11 @@
 
 <figure><img src="../.gitbook/assets/Group 2832.png" alt=""><figcaption></figcaption></figure>
 
-### How do Forkonomics work?
+### Program Background
 
-Liquity V2 is published under a [Business Source License (BUSL)](https://github.com/liquity/bold/blob/main/contracts/LICENSE) the code is source-available, but any commercial use requires approval from Liquity AG.
+Liquity V2 is published under a [Business Source License (BUSL)](https://github.com/liquity/bold/blob/main/contracts/LICENSE) such that, while the codebase is source available, any commercial deployment needs to be approved by Liquity AG.&#x20;
 
-So far, **20+ forks across multiple networks** have signed license agreements.
+A number of friendly forks catering to blockchain networks and collateral asset types not supported for BOLD minting have thus entered into licensing agreements with Liquity AG. In exchange for the right to deploy their own stablecoins using Liquity V2 code, these projects have committed to incentivize collaboration between their users and BOLD users.&#x20;
 
 You can learn more about the program in this [blog post](https://www.liquity.org/blog/bootstrapping-liquity-v2).
 
