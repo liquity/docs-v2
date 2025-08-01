@@ -30,11 +30,11 @@ The [**Yield Calculator**](https://docs.google.com/spreadsheets/d/1Zi_2rU7Ktwd4q
 
 August
 
-* Ebisu launch +  BOLD/ebUSD pool on Mainnet
+* Ebisu: BOLD/ebUSD pool on Mainnet
 * Aesyx on Avalanche to launch + BOLD >< AXD pool to follow
 * Soneta on Sonic to launch + ONE >< BOLD pool to follow
 * Felix on HyperEVM to launch feUSD >< BOLD pool
-* DeFi Dollar to launch on Mainnet + BOLD >< USDFI pool on Curve
+* DeFi Dollar: BOLD >< USDFI pool on Curve
 
 Q3 \&Q4
 
