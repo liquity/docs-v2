@@ -8,13 +8,15 @@ Liquity V2 is published under a [Business Source License (BUSL)](https://github.
 
 So far, **20+ forks across multiple networks** have signed license agreements.
 
+You can learn more about the program in this [blog post](https://www.liquity.org/blog/bootstrapping-liquity-v2).
+
 ### Resources
 
-[**Forqty**](https://www.forqty.com/) provides an overview of all launched and upcoming forks.
+[Forqty](https://www.forqty.com/) provides an overview of all launched and upcoming forks.
 
-Your fork airdrop points can be seen on the [**V2 Leaderboard**](https://dune.com/liquity/v2-leaderboard)**.**
+Your fork airdrop points can be seen on the [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard).
 
-The [**Yield Calculator**](https://docs.google.com/spreadsheets/d/1Zi_2rU7Ktwd4qF9AZuFbgz7W8uIEN6ta5n-LHOE44oM/edit?gid=0#gid=0) can be used to estimate your APR based on data you can enter.
+The [Yield Calculator](https://docs.google.com/spreadsheets/d/1Zi_2rU7Ktwd4qF9AZuFbgz7W8uIEN6ta5n-LHOE44oM/edit?gid=0#gid=0) can be used to estimate your APR based on data you can enter.
 
 ### Launched Forks
 
@@ -50,8 +52,6 @@ Q3 \&Q4
 All forks will reward BOLD users by incentivizing core use cases such as the main liquidity pools and the V2 Stability Pools. While allocation size and execution will vary, each fork will share its plan in a dedicated announcement.&#x20;
 
 Forks allocate and distribute their incentives directly to users - this [Leaderboard](https://dune.com/liquity/v2-leaderboard) shows all recipients.
-
-You can learn more about the program in this [blog post](https://www.liquity.org/blog/bootstrapping-liquity-v2).
 
 ### Announcements
 
