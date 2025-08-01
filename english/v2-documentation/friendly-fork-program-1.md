@@ -24,16 +24,15 @@ Forks allocate and distribute their incentives directly to users by their discre
 
 ### Announced Friendly Forks
 
-* Aesyx on Avalache
-* Alpen on Strata (Bitcoin)
+* [**Aesyx**](https://x.com/Aesyx_Fi/status/1950952447175954762) on Avalache
+* [**Alpen**](https://x.com/AlpenLabs/status/1920485228599992389) on Strata (Bitcoin)
 * [**Asymmetry**](https://www.asymmetry.finance/) on Mainnet
-* Beraborrow
+* [**Beraborrow**](https://x.com/beraborrow/status/1843305523472380189) on Berachain
 * [**DeFi Dollar** ](https://defidollar.io/)on Mainnet
 * [**Ebisu**](https://ebisu.money/) on Mainnet
 * [**Felix**](https://www.usefelix.xyz/) on HyperEVM
 * [**Nerite**](https://www.nerite.org/) on Arbitrum
 * [**Orki**](https://www.orki.finance/) on Swell
-* Soneta on Sonic
 * [**Quill**](https://www.quill.finance/) on Scroll
 
 **Outlook**
