@@ -27,6 +27,7 @@ Forks allocate and distribute their incentives directly to users by their discre
 * Aesyx on Avalache
 * Alpen on Strata (Bitcoin)
 * [**Asymmetry**](https://www.asymmetry.finance/) on Mainnet
+* Beraborrow
 * [**DeFi Dollar** ](https://defidollar.io/)on Mainnet
 * [**Ebisu**](https://ebisu.money/) on Mainnet
 * [**Felix**](https://www.usefelix.xyz/) on HyperEVM
