@@ -2,6 +2,12 @@
 
 <figure><img src="../.gitbook/assets/Group 2832.png" alt=""><figcaption></figcaption></figure>
 
+### How do Forkonomics work?
+
+Liquity V2 is published under a [Business Source License (BUSL)](https://github.com/liquity/bold/blob/main/contracts/LICENSE) the code is source-available, but any commercial use requires approval from Liquity AG.
+
+So far, **20+ forks across multiple networks** have signed license agreements.
+
 ### Resources
 
 [**Forqty**](https://www.forqty.com/) provides an overview of all launched and upcoming forks.
@@ -38,12 +44,6 @@ Q3 \&Q4
 * Plasma fork
 * BSC fork
 * Base fork
-
-### How do Forkonomics work?
-
-Liquity V2 is published under a [Business Source License (BUSL)](https://github.com/liquity/bold/blob/main/contracts/LICENSE) the code is source-available, but any commercial use requires approval from Liquity AG.
-
-So far, **20+ forks across multiple networks** have signed license agreements.
 
 ### Rewards
 
