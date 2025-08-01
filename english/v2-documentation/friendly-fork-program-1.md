@@ -66,8 +66,7 @@ Q3 & Q4
 * [Liquity V2 - Relaunch announcement](https://x.com/LiquityProtocol/status/1924465010925056106) (2025/05/19)
 * [Orki - going live on Swell](https://x.com/LiquityProtocol/status/1923019704605737130) (2025/05/15)
 * [Quill - going live on Scroll](https://x.com/LiquityProtocol/status/1920130975708901601) (2025/05/07)
-
-[Felix - going live on Hyperliquid](https://x.com/LiquityProtocol/status/1909634552852795574) (2025/04/08)
+* [Felix - going live on Hyperliquid](https://x.com/LiquityProtocol/status/1909634552852795574) (2025/04/08)
 
 ### Program Rules
 
