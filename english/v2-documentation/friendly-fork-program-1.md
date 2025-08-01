@@ -10,6 +10,16 @@ Your fork airdrop points can be seen on the [**V2 Leaderboard**](https://dune.co
 
 The [**Yield Calculator**](https://docs.google.com/spreadsheets/d/1Zi_2rU7Ktwd4qF9AZuFbgz7W8uIEN6ta5n-LHOE44oM/edit?gid=0#gid=0) can be used to estimate your APR based on data you can enter.
 
+### Launched Forks
+
+* [**Asymmetry**](https://www.asymmetry.finance/) on Mainnet
+* [**DeFi Dollar** ](https://defidollar.io/)on Mainnet
+* [**Ebisu**](https://ebisu.money/) on Mainnet
+* [**Felix**](https://www.usefelix.xyz/) on HyperEVM
+* [**Nerite**](https://www.nerite.org/) on Arbitrum
+* [**Orki**](https://www.orki.finance/) on Swell
+* [**Quill**](https://www.quill.finance/) on Scroll
+
 ### Outlook
 
 August
@@ -35,11 +45,9 @@ Liquity V2 is published under a [Business Source License (BUSL)](https://github.
 
 So far, **20+ forks across multiple networks** have signed license agreements.
 
-In return for the license, these teams commit to **bootstrap liquidity together** by allocating **\~5% of their token supply** for this shared purpose.
+### Rewards
 
-* 1.25% for Fork\_Stable/BOLD liquidity on their network
-* 2.75% for BOLD user activity on mainnet
-* 1% to Liquity AG
+All forks will reward BOLD users by incentivizing core use cases such as the main liquidity pools and the V2 Stability Pools. While allocation size and execution will vary, each fork will share its plan in a dedicated announcement.&#x20;
 
 Forks allocate and distribute their incentives directly to users - this [Leaderboard](https://dune.com/liquity/v2-leaderboard) shows all recipients.
 
