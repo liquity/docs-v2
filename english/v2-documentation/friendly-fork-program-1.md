@@ -10,25 +10,34 @@ A number of friendly forks catering to blockchain networks and collateral asset 
 
 You can learn more about the program in this [blog post](https://www.liquity.org/blog/bootstrapping-liquity-v2).
 
+### Rewards
+
+All forks will reward BOLD users by incentivizing core use cases such as the main liquidity pools and the V2 Stability Pools. While allocation size and execution will vary, each fork will share its plan in a dedicated announcement.&#x20;
+
+Forks allocate and distribute their incentives directly to users by their discretion - the [Leaderboard](https://dune.com/liquity/v2-leaderboard) tracks all that activity.
+
 ### Resources
 
-[Forqty](https://www.forqty.com/) provides an overview of all launched and upcoming forks.
+[Forqty](https://www.forqty.com/) provides an overview of all launched and upcoming forks (Provided by Summerstone).
 
-Your fork airdrop points can be seen on the [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard).
+[V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) is used to track your BOLD usage, and provided to forks as guidance for rewards.
 
 The [Yield Calculator](https://docs.google.com/spreadsheets/d/1Zi_2rU7Ktwd4qF9AZuFbgz7W8uIEN6ta5n-LHOE44oM/edit?gid=0#gid=0) can be used to estimate your APR based on data you can enter.
 
-### Launched Forks
+### Announced Friendly Forks
 
+* Aesyx on Avalache
+* Alpen on Strata (Bitcoin)
 * [**Asymmetry**](https://www.asymmetry.finance/) on Mainnet
 * [**DeFi Dollar** ](https://defidollar.io/)on Mainnet
 * [**Ebisu**](https://ebisu.money/) on Mainnet
 * [**Felix**](https://www.usefelix.xyz/) on HyperEVM
 * [**Nerite**](https://www.nerite.org/) on Arbitrum
 * [**Orki**](https://www.orki.finance/) on Swell
+* Soneta on Sonic
 * [**Quill**](https://www.quill.finance/) on Scroll
 
-### Outlook
+**Outlook**
 
 August
 
@@ -36,9 +45,8 @@ August
 * Aesyx on Avalanche to launch + BOLD >< AXD pool to follow
 * Soneta on Sonic to launch + ONE >< BOLD pool to follow
 * Felix on HyperEVM to launch feUSD >< BOLD pool
-* DeFi Dollar: BOLD >< USDFI pool on Curve
 
-Q3 \&Q4
+Q3 & Q4
 
 * Bitvault to launch on Katana
 * Alpen to launch on Strata
@@ -46,12 +54,6 @@ Q3 \&Q4
 * Plasma fork
 * BSC fork
 * Base fork
-
-### Rewards
-
-All forks will reward BOLD users by incentivizing core use cases such as the main liquidity pools and the V2 Stability Pools. While allocation size and execution will vary, each fork will share its plan in a dedicated announcement.&#x20;
-
-Forks allocate and distribute their incentives directly to users - this [Leaderboard](https://dune.com/liquity/v2-leaderboard) shows all recipients.
 
 ### Announcements
 
