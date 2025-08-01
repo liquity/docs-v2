@@ -18,11 +18,9 @@ Forks allocate and distribute their incentives directly to users by their discre
 
 ### Resources
 
-[Forqty](https://www.forqty.com/) provides an overview of all launched and upcoming forks (Provided by Summerstone).
-
-[V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) is used to track your BOLD usage, and provided to forks as guidance for rewards.
-
-The [Yield Calculator](https://docs.google.com/spreadsheets/d/1Zi_2rU7Ktwd4qF9AZuFbgz7W8uIEN6ta5n-LHOE44oM/edit?gid=0#gid=0) can be used to estimate your APR based on data you can enter.
+* [Forqty](https://www.forqty.com/) provides an overview of all launched and upcoming forks (Provided by Summerstone).
+* [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) is used to track your BOLD usage, and provided to forks as guidance for rewards.
+* [Yield Calculator](https://docs.google.com/spreadsheets/d/1Zi_2rU7Ktwd4qF9AZuFbgz7W8uIEN6ta5n-LHOE44oM/edit?gid=0#gid=0) can be used to estimate your APR based on data you can enter.
 
 ### Announced Friendly Forks
 
