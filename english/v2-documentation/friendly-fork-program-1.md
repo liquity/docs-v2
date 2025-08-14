@@ -57,7 +57,7 @@ Q3 & Q4
 
 * [Saga fork - Announcement](https://x.com/Sagaxyz__/status/1949892889456050207) (2025/07/28)
 * [Nerite - Friendly Fork #6 goes live on Arbitrum](https://x.com/LiquityProtocol/status/1944771396183183731) (2025/07/14)
-* [Nerite - Incentive announcement](https://x.com/LiquityProtocol/status/1946220042770854163) (2025/07/18)
+* [Nerite - Incentive announcement](https://www.nerite.org/writing/bold-incentive-program) (2025/07/18)
 * [Quill - Incentive announcement](https://x.com/LiquityProtocol/status/1943703345363058899) (2025/07/11)
 * [Aesyx - Friendly Fork #5 goes live on Avalanche](https://x.com/LiquityProtocol/status/1943402636444889450) (2025/07/10)
 * [Asymmetry - Potential Issue Announcement](https://x.com/asymmetryfin/status/1935869427783729188) (2025/06/20)
