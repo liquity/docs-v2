@@ -117,13 +117,12 @@ Borrowers should thus keep an eye on the interest rate range and the maximum upd
 
 ### Who are the current active interest rate delegates? <a href="#docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597" id="docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597"></a>
 
-[Bolder Cash](https://bolder.cash/rate-strategies?f=bold\&c=combined)
-
-[Trove Zero](https://trovezero.xyz/)
-
-[Summerstone](https://summerstone.xyz/docs/for-users)
-
-[Autonomous Rate Manager](https://www.liquity.org/blog/autonomous-interest-manager)
+| Delegate                                                                            | Address                                                                                                                                         |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Bolder Cash](https://bolder.cash/rate-strategies?f=bold\&c=combined)               | Several strategies, listed on their [page](https://bolder.cash/rate-strategies?f=bold\&c=combined).                                             |
+| [Trove Zero](https://trovezero.xyz/)                                                | 0xe707784292289be3aa0fb6f9d33d420291f98695                                                                                                      |
+| [Summerstone](https://summerstone.xyz/docs/for-users)                               | See [here](https://summerstone.xyz/docs/for-users/managed-interest-rates/supported-protocols/bold-from-liquity-v2/index.html#active-strategies) |
+| [Autonomous Rate Manager](https://www.liquity.org/blog/autonomous-interest-manager) | See [article](https://www.liquity.org/blog/autonomous-interest-manager) for details.                                                            |
 
 _Note that Liquity AG is not responsible for the actions of any delegates. Please do your own research._
 
