@@ -1,10 +1,6 @@
----
-hidden: true
----
+# Friendly Fork Program
 
-# \[Old] Friendly Fork Program
-
-<figure><img src="../.gitbook/assets/upd2 Liquity V2 – Friendly Forks now.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Group 2832.png" alt=""><figcaption></figcaption></figure>
 
 ### Program Background
 
@@ -16,102 +12,61 @@ You can learn more about the program in this [blog post](https://www.liquity.org
 
 ### Rewards
 
-All forks will reward BOLD users by incentivizing core use cases such as the main liquidity pools and the V2 Stability Pools.\
-While allocation size and execution will vary, each fork will share its plan in a dedicated announcement (linked below).
+All forks will reward BOLD users by incentivizing core use cases such as the main liquidity pools and the V2 Stability Pools. While allocation size and execution will vary, each fork will share its plan in a dedicated announcement.&#x20;
 
-The [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) assigns users a score based on their activity. Forks can use it as a reference when distributing rewards, though they are free to adjust parameters as they see fit.
+Forks allocate and distribute their incentives directly to users by their discretion - the [Leaderboard](https://dune.com/liquity/v2-leaderboard) tracks all that activity.
 
-### Licensed Friendly Forks
+### Resources
 
-**Aesyx**
+* [Forqty](https://www.forqty.com/) provides an overview of all launched and upcoming forks (Provided by Summerstone).
+* [V2 Leaderboard](https://dune.com/liquity/v2-leaderboard) is used to track your BOLD usage, and provided to forks as guidance for rewards.
+* [Yield Calculator](https://docs.google.com/spreadsheets/d/1Zi_2rU7Ktwd4qF9AZuFbgz7W8uIEN6ta5n-LHOE44oM/edit?gid=0#gid=0) can be used to estimate your APR based on data you can enter.
 
-* Launch: TBD
-* Stablecoin: USXY
-* Governance Token: SXY
-* Network: Avalanche
-* Reward Details: TBD
-* Relevant Links:  [Website](https://aesyx.fi/) | [Docs](http://docs.aesyx.fi)
+### Announced Friendly Forks
 
-**Asymmetry Finance**
+* [**Aesyx**](https://x.com/Aesyx_Fi/status/1950952447175954762) on Avalache
+* [**Alpen**](https://x.com/AlpenLabs/status/1920485228599992389) on Strata (Bitcoin)
+* [**Asymmetry**](https://www.asymmetry.finance/) on Mainnet
+* [**Beraborrow**](https://x.com/beraborrow/status/1843305523472380189) on Berachain
+* [**DeFi Dollar** ](https://defidollar.io/)on Mainnet
+* [**Ebisu**](https://ebisu.money/) on Mainnet
+* [**Felix**](https://www.usefelix.xyz/) on HyperEVM
+* [**Nerite**](https://www.nerite.org/) on Arbitrum
+* [**Orki**](https://www.orki.finance/) on Swell
+* [**Quill**](https://www.quill.finance/) on Scroll
 
-* Launch: TBD
-* Stablecoin: USDaf
-* Governance Token: ASF
-* Network: Ethereum Mainnet
-* Reward Details: TBD
-* Relevant Links: [Website](https://www.asymmetry.finance/) | [Docs](https://docs.asymmetry.finance/)
+**Outlook**
 
-**Beraborrow**
+August
 
-* Launch: TBD
-* Stablecoin: NECT
-* Governance Token: POLLEN
-* Network: Berachain
-* Reward Details: TBD
-* Relevant Links: [Website ](https://www.beraborrow.com/)| [Docs](https://beraborrow.gitbook.io/docs)
+* Ebisu: BOLD/ebUSD pool on Mainnet
+* Aesyx on Avalanche to launch + BOLD >< AXD pool to follow
+* Soneta on Sonic to launch + ONE >< BOLD pool to follow
+* Felix on HyperEVM to launch feUSD >< BOLD pool
 
-**DeFi Dollar**
+Q3 & Q4
 
-* Launch: TBD
-* Stablecoin: DUSD
-* Governance Token: DEFI
-* Network: Ethereum Mainnet
-* Reward Details: TBD
-* Relevant Links: [Website](https://defidollar.io/) | [Docs](https://docs.defidollar.io/)
+* Bitvault to launch on Katana
+* Alpen to launch on Strata
+* Gnosis fork
+* Plasma fork
+* BSC fork
+* Base fork
 
-**Ebisu Money**
+### Announcements
 
-* Launch: TBD
-* Stablecoin: ebUSD
-* Governance Token: EBISU
-* Network: Ethereum Mainnet
-* Reward Details: TBD
-* Relevant Links:  [Website](https://ebisu.money/)
-
-**Felix**
-
-* Launch: LIVE
-* Stablecoin: feUSD
-* Governance Token: TBD
-* Network: Hyperliquid
-* Reward Details: TBD
-* Relevant Links: [Website ](https://usefelix.xyz/)| [Docs](https://usefelix.gitbook.io/felix-docs)
-
-**Nerite**
-
-* Launch: End of May
-* Stablecoin: USDN
-* Governance Token: NERI
-* Network: Arbitrum
-* Reward Details: [https://www.nerite.org/writing/bold-incentive-program](https://www.nerite.org/writing/bold-incentive-program)
-* Relevant Links: [Website](https://www.nerite.org/) | [Docs](https://github.com/NeriteOrg/nerite/blob/main/README.md)
-
-**Orki Finance**&#x20;
-
-* Launch: LIVE
-* Stablecoin: USDK
-* Governance Token: ORKI
-* Network: Swell&#x20;
-* Reward Details: TBD
-* Relevant Links: [Website](https://www.orki.finance/) | [Docs](https://orki-finance.gitbook.io/orki-finance-docs)
-
-**Soneta**
-
-* Launch: TBD
-* Stablecoin: ONE
-* Governance Token: STA
-* Network: Sonic&#x20;
-* Reward Details: TBD
-* Relevant Links: [Website](https://soneta.xyz/) | [Docs](https://docs.soneta.xyz/)
-
-**Quill Finance**
-
-* Launch: LIVE
-* Stablecoin: USDQ
-* Governance Token: QUILL
-* Network: Scroll
-* Reward Details: [https://medium.com/@QuillFi/fueling-defi-quills-revamped-incentives-programs-926e4ffd9034](https://medium.com/@QuillFi/fueling-defi-quills-revamped-incentives-programs-926e4ffd9034)
-* Relevant Links: [Website](https://www.quill.finance/) | [Docs](https://quill-finance.gitbook.io/faq)
+* [Saga fork - Announcement](https://x.com/Sagaxyz__/status/1949892889456050207) (2025/07/28)
+* [Nerite - Friendly Fork #6 goes live on Arbitrum](https://x.com/LiquityProtocol/status/1944771396183183731) (2025/07/14)
+* [Nerite - Incentive announcement](https://www.nerite.org/writing/bold-incentive-program) (2025/07/18)
+* [Quill - Incentive announcement](https://x.com/LiquityProtocol/status/1943703345363058899) (2025/07/11)
+* [Aesyx - Friendly Fork #5 goes live on Avalanche](https://x.com/LiquityProtocol/status/1943402636444889450) (2025/07/10)
+* [Asymmetry - Potential Issue Announcement](https://x.com/asymmetryfin/status/1935869427783729188) (2025/06/20)
+* [Ebisu - coming soon](https://x.com/LiquityProtocol/status/1932527468679696398) (2026/06/10)
+* [Asymmetry - Friendly Fork #4 goes live on mainnet](https://x.com/LiquityProtocol/status/1925955594973835496) (2025/05/23)
+* [Liquity V2 - Relaunch announcement](https://x.com/LiquityProtocol/status/1924465010925056106) (2025/05/19)
+* [Orki - going live on Swell](https://x.com/LiquityProtocol/status/1923019704605737130) (2025/05/15)
+* [Quill - going live on Scroll](https://x.com/LiquityProtocol/status/1920130975708901601) (2025/05/07)
+* [Felix - going live on Hyperliquid](https://x.com/LiquityProtocol/status/1909634552852795574) (2025/04/08)
 
 ### Program Rules
 
