@@ -10,7 +10,7 @@ description: >-
 
 [Whitepaper](https://bafybeibjommrelqjw22vewpddgfdnm5geoz747gv2zeuy7njwivpfcy3xa.ipfs.w3s.link/Liquity%20v2%20-%20Whitepaper%20rev.%200.3%20\(November%2C%202024\)%20\(1\).pdf)
 
-### Code base
+### Code base (Github)
 
 [Bold Core](https://github.com/liquity/bold)\
 [Governance](https://github.com/liquity/V2-gov/tree/main)
