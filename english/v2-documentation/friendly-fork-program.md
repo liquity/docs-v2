@@ -1,6 +1,6 @@
 # Friendly Fork Program
 
-<figure><img src="../.gitbook/assets/Group 2832.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Liquity V2 – Friendly Forks Sep 2025.png" alt=""><figcaption></figcaption></figure>
 
 ### Program Background
 
