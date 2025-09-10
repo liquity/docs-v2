@@ -38,7 +38,7 @@ In contrast, when BOLD trades below $1, arbitrageurs will initiate redemptions t
 The yield comes from two sources:
 
 * **Interest payments:** Each borrow-market funnels 75% of the of its revenue to its Stability Pool depositors (Earners). This is paid out in BOLD.
-* &#x20;**Liquidation gains:** Your BOLD will be used to liquidate under-collaterized loans, effectively buying their collateral with a \~5% discount. This is paid out in (staked) ETH.
+* &#x20;**Liquidation gains:** Your BOLD will be used to liquidate under-collateralized loans, effectively buying their collateral with a \~5% discount. This is paid out in (staked) ETH.
 
 All the yield is fully sustainable, scalable and “real”, with no token emissions and lockups.
 
@@ -57,7 +57,7 @@ Check historic rates [here](https://dune.com/liquity/liquity-v2#interest-rates).
 The goals are to:
 
 * Establish separate borrow markets for different collateral assets with their own market driven interest rates, using the Stability Pool backing to dynamically split redemptions across the available collaterals (link to “Redemption”).&#x20;
-* Compartmentalize  the risks as much as possible when depositing to the respective Stability Pools (Earn) by giving the depositors control over which collateral assets they want exposure to in case of liquidations.
+* Compartmentalize the risks as much as possible when depositing to the respective Stability Pools (Earn) by giving the depositors control over which collateral assets they want exposure to in case of liquidations.
 
 ### How have Stability Pools evolved from V1 to V2?
 
