@@ -62,6 +62,7 @@ description: >-
 | BOLD Avalanche | [0x03569CC076654F82679C4BA2124D64774781B01D](https://snowtrace.io/address/0x03569CC076654F82679C4BA2124D64774781B01D)            |
 | BOLD Sonic     | [0xf05a207442f14E446b0e32b12D2043bfc68Cb1C9](https://sonicscan.org/address/0xf05a207442f14E446b0e32b12D2043bfc68Cb1C9)           |
 | BOLD Berachain | [0xf05a207442f14E446b0e32b12D2043bfc68Cb1C9](https://berascan.com/address/0xf05a207442f14e446b0e32b12d2043bfc68cb1c9)            |
+| BOLD Swell     | [0x1a17b22d762c8cf2ca0f07e2b3c32e7481bb0d8c](https://swellchainscan.io/address/0x1a17b22d762c8cf2ca0f07e2b3c32e7481bb0d8c)       |
 
 #### Shared contracts
 
