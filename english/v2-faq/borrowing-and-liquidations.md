@@ -1,4 +1,4 @@
-# Borrowing and Liquidations
+# Borrowing and Multiply
 
 ### What makes borrowing in V2 so unique?
 
@@ -53,6 +53,34 @@ This depends on your personal preferences, primarily your risk tolerance and how
 Please note that these examples are for illustration purposes only and do not represent definitive risk or safety thresholds. It's essential to determine your own risk tolerance and comfort level as a user.
 
 If your LTV becomes too high, your position will be liquidated.
+
+### What is Multiply?
+
+The Multiply feature allows you to easily increase your exposure to ETH and LSTs in just a few clicks. It automatically acquires additional collateral using freshly minted BOLD — all in a single transaction.
+
+Simply enter the collateral amount and adjust your desired leverage with the slider.
+
+<figure><img src="../.gitbook/assets/Screenshot at Oct 23 12-23-46.png" alt=""><figcaption></figcaption></figure>
+
+You can modify all parameters at any time, giving you full control of your exposure from one central interface.
+
+### What happens under the hood?
+
+Your exposure increases by borrowing BOLD against your ETH or LST and swapping it for more of the same asset, which is then deposited into your position.
+
+Conversely, reducing your exposure involves using some of your ETH or LST to purchase BOLD, which is then used to repay a portion of your debt.
+
+All swaps are executed using a combination of Curve and Uniswap liquidity.
+
+### What are the limitations?
+
+When you adjust your exposure, the value of ETH/LST deposited or withdrawn is approximately equal to the BOLD borrowed or repaid, so in theory, your net position value shouldn't change.
+
+In practice, however, there are additional costs: a BOLD creation fee when increasing exposure, along with swap fees when exchanging BOLD and ETH/LST.&#x20;
+
+Larger exposure adjustments cause higher price impact, meaning the exchange rate worsens as the size increases - this depends on available liquidity in Curve and Uniswap. Extremely large adjustments may not be possible due to insufficient liquidity.&#x20;
+
+These costs reduce your net position value, so avoid adjusting exposure too often and always monitor price impact before confirming an adjustment.
 
 ### How do Liquidations work in Liquity V2?
 

@@ -5,7 +5,7 @@
 ## FAQ <a href="#v2-faq" id="v2-faq"></a>
 
 * [General](v2-faq/general.md)
-* [Borrowing and Liquidations](v2-faq/borrowing-and-liquidations.md)
+* [Borrowing and Multiply](v2-faq/borrowing-and-liquidations.md)
 * [BOLD & Earn](v2-faq/bold-and-earn.md)
 * [Redemptions and Delegation](v2-faq/redemptions-and-delegation.md)
 * [LQTY Staking & Voting](v2-faq/lqty-staking.md)
