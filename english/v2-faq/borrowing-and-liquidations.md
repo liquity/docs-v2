@@ -72,6 +72,27 @@ Conversely, reducing your exposure involves using some of your ETH or LST to pur
 
 All swaps are executed using a combination of Curve and Uniswap liquidity.
 
+### What's the difference between Loan and Multiply modes?
+
+Liquity V2 offers two ways to view your position - **Loan** and **Multiply**. You can convert it at any time.
+
+<figure><img src="../.gitbook/assets/convert.png" alt=""><figcaption><p>Multiply Mode</p></figcaption></figure>
+
+Both use the same underlying mechanics but differ in how they display and adjust your position. Here’s how they compare:
+
+* **Loan Mode** treats your position as a _standard borrowing setup_.
+  * Focus: your BOLD debt and the ETH/LST collateral backing it.
+  * You can deposit/withdraw collateral and mint/repay BOLD.
+  * Minted BOLD is sent directly to your wallet.
+* **Multiply Mode** treats your position as a _leveraged exposure_.
+  * Focus: your Net Value - collateral exposure minus debt value.
+  * You can increase/decrease exposure, which automatically changes your BOLD debt.
+  * Minted BOLD is swapped for ETH/LST and added to your position, compounding exposure.
+
+Most users won’t need to switch modes, but it can be useful in certain cases.\
+For instance, if you’ve borrowed BOLD in Loan mode and spent it, you’re effectively leveraged but can’t easily repay.\
+Switching to Multiply lets you reduce your exposure (de-lever) and lower liquidation risk — keeping some collateral instead of losing it entirely.
+
 ### What are the limitations?
 
 When you adjust your exposure, the value of ETH/LST deposited or withdrawn is approximately equal to the BOLD borrowed or repaid, so in theory, your net position value shouldn't change.
