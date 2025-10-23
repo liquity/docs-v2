@@ -60,7 +60,7 @@ The Multiply feature allows you to easily increase your exposure to ETH and LSTs
 
 Simply enter the collateral amount and adjust your desired leverage with the slider.
 
-<figure><img src="../.gitbook/assets/Screenshot at Oct 23 12-23-46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot at Oct 23 19-03-05.png" alt=""><figcaption><p>Multiply view</p></figcaption></figure>
 
 You can modify all parameters at any time, giving you full control of your exposure from one central interface.
 
@@ -76,7 +76,7 @@ All swaps are executed using a combination of Curve and Uniswap liquidity.
 
 Liquity V2 offers two ways to view your position - **Loan** and **Multiply**. You can convert it at any time.
 
-<figure><img src="../.gitbook/assets/convert.png" alt=""><figcaption><p>Multiply Mode</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/convert.png" alt=""><figcaption><p>Mode switching</p></figcaption></figure>
 
 Both use the same underlying mechanics but differ in how they display and adjust your position. Here’s how they compare:
 
