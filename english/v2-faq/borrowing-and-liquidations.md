@@ -91,7 +91,7 @@ Both use the same underlying mechanics but differ in how they display and adjust
 
 Most users won’t need to switch modes, but it can be useful in certain cases.\
 For instance, if you’ve borrowed BOLD in Loan mode and spent it, you’re effectively leveraged but can’t easily repay.\
-Switching to Multiply lets you reduce your exposure (de-lever) and lower liquidation risk — keeping some collateral instead of losing it entirely.
+Switching to Multiply lets you reduce your exposure (de-lever) and lower liquidation risk - keeping some collateral instead of losing it entirely.
 
 ### What are the limitations?
 
