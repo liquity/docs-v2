@@ -74,7 +74,7 @@ All swaps are executed using a combination of Curve and Uniswap liquidity.
 
 ### What's the difference between Loan and Multiply modes?
 
-Liquity V2 offers two ways to view your position - **Loan** and **Multiply**. You can convert it at any time.
+Liquity V2 offers two ways to view your position - **Loan** and **Multiply**. You can switch it at any time.
 
 <figure><img src="../.gitbook/assets/convert.png" alt=""><figcaption><p>Mode switching</p></figcaption></figure>
 
