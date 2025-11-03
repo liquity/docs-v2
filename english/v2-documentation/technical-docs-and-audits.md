@@ -43,6 +43,8 @@ description: >-
 
 [Cantina Competiton](https://cantina.xyz/portfolio/fca4f98a-7d24-49f1-9a3b-80e5e65b2b30), March-April 2025
 
+[Coinspect - Redemption Helper](https://drive.google.com/file/d/1tKLYZj_peUnUKCBmfWbmdi1KvCYJ7WfV/view), October 2025
+
 ### Economic modelling and simulation
 
 [Chaos Labs: Mechanism Design Review](https://cdn.sanity.io/files/zmh9mnff/production/ca6a4815e62b05f33fb3ec56c5a4c42d6b7ddbec.pdf), October 2024
