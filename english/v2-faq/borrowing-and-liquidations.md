@@ -215,12 +215,6 @@ Yes, they are represented as a NFT (ERC-721), hence easily transferable between 
 
 Please note that more advanced strategies like ‘selling’ Trovess on secondary markets like OpenSea comes with inherent risks, and caution is advised.
 
-### How do I loop my exposure?
-
-Looping allows you to borrow BOLD against your deposited collateral (ETH, wstETH or rETH) and use it to buy more collateral, increasing your exposure to the underlying . Liquity V2 comes with built-in automation to achieve this with one click (zappers).&#x20;
-
-Make sure you choose a frontend that supports this functionality, and be mindful of liquidity/slippage.
-
 ### How are collateral risks mitigated?
 
 Liquity V2 will have three separate borrow markets for the different collateral types with their  own Stability Pools (for efficient liquidations), user-set interest rates, and LTV factors for their respective assets (ETH, wstETH, and rETH).&#x20;
