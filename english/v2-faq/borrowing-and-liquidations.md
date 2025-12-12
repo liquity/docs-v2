@@ -267,4 +267,18 @@ This is usually caused by ISP or DNS-based geofencing. Try the following:
 * Tether using mobile data
 * Disable "secure DNS" in your browser settings
 
-\
+#### What happens when The Graph is down?
+
+The Graph organizes blockchain data for easy frontend access. It’s rarely down, but major events, like the global Cloudflare outage on November 18th, 2025, can cause temporary disruption.
+
+When The Graph is down, blockchain data becomes harder to fetch, which can impact the frontend experience. The blockchain itself is unaffected.
+
+A built-in fallback ensures you can still perform all standard operations using the frontends, such as creating, modifying, or closing loans, adding to or removing from stability pools, staking, or voting.
+
+Limitations during downtime
+
+* If you switched browsers or cleared your history, you might not see your list of open loans. Use DeFiExplore or Rails Finance to find your loan IDs and enter them manually to access your positions.
+* If your loan was liquidated or redeemed (partly or fully), the details won’t be visible until The Graph is back online.
+* Data such as redemption risk and interest charts is unavailable. If you rely on these metrics, please return once The Graph is restored.
+
+<br>
