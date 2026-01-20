@@ -277,7 +277,7 @@ A built-in fallback ensures you can still perform all standard operations using 
 
 Limitations during downtime
 
-* If you switched browsers or cleared your history, you might not see your list of open loans. Use DeFiExplore or Rails Finance to find your loan IDs and enter them manually to access your positions.
+* If you switched browsers or cleared your history, you might not see your list of open loans. Use [DeFiExplore](https://liquityv2.defiexplore.com/) or [Rails Finance](https://rails.finance/) to find your loan IDs and enter them manually to access your positions.
 * If your loan was liquidated or redeemed (partly or fully), the details won’t be visible until The Graph is back online.
 * Data such as redemption risk and interest charts is unavailable. If you rely on these metrics, please return once The Graph is restored.
 
