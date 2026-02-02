@@ -2,8 +2,8 @@
 
 ### **Dependencies**
 
-* Oracles: Chainlink for collaterals
-* Incentive allocation by LQTY stakers (25% of borrowers interest)
+* Oracles: Chainlink for collateral pricing
+* Collateral assets: wstETH and rETH backing for BOLD
 
 ### Chain Risk
 
