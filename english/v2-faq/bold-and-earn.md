@@ -10,7 +10,7 @@ In contrast to most of its competitors, BOLD is a resilient stablecoin by design
 * not subject to collateral changes and protocol upgrades (immutable)
 * directly redeemable (always convertible in a fast and liquid way)
 
-BOLD received an [A- rating](https://bluechip.org/en/coins/bold) by rating agency Bluechip, outranking the likes of USDC and DAI.
+BOLD received an [A- rating](https://bluechip.org/en/coins/bold) by the rating agency Bluechip, outranking the likes of USDC and DAI.
 
 ### What are BOLD's main benefits compared to other stablecoins?
 
