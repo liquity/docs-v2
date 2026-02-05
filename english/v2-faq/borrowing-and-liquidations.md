@@ -215,9 +215,21 @@ Yes, they are represented as a NFT (ERC-721), hence easily transferable between 
 
 Please note that more advanced strategies like ‘selling’ Trovess on secondary markets like OpenSea comes with inherent risks, and caution is advised.
 
+### What is Safety Mode?
+
+Safety Mode kicks in when the overall health of a specific collateral branch (called the Total Collateral Ratio, or TCR) drops below a certain level known as the Critical Collateral Ratio (CCR). This means that Safety Mode can be triggered for one collateral branch while others remain unaffected
+
+In this state the following actions are not possible:
+
+1. Adjusting interest rate prematurely: The system disallows a premature rate change, which would incur a fee. This would increase the debt in the system, and therefore immediately decrease the current TCR
+2. Purely withdrawing collateral&#x20;
+3. Purely drawing new BOLD debt
+
+Read more here: [https://www.liquity.org/blog/liquity-v2-safety-mode](https://www.liquity.org/blog/liquity-v2-safety-mode)
+
 ### How are collateral risks mitigated?
 
-Liquity V2 will have three separate borrow markets for the different collateral types with their  own Stability Pools (for efficient liquidations), user-set interest rates, and LTV factors for their respective assets (ETH, wstETH, and rETH).&#x20;
+Liquity V2 will have three separate borrow markets for the different collateral types with their own Stability Pools (for efficient liquidations), user-set interest rates, and LTV factors for their respective assets (ETH, wstETH, and rETH).&#x20;
 
 Risks are mitigated through temporary borrowing restrictions in times of low collateralization of a given market, a redemption logic prioritizing  collateral with less Stability Pool backing, and a collateral shutdown as an emergency measure to maintain system balance and protect against market instability.
 
@@ -248,14 +260,7 @@ In Liquity V1 it is mainly needed due to a lack of sustainable yield for the Sta
 
 As a replacement for the Recovery Mode, the system may shut down borrow markets whose total collateralization ratio (TCR) falls below 110% (for ETH) or 120% (for wstETH and rETH). The shutdown is performed by incentivizing redemptions against the respective collateral (see [this](https://liquity.gitbook.io/v2-whitepaper/liquity-v2-whitepaper/functionality-and-use-cases#c9aukpugrj32) for more details)
 
-Additionally, when the TCR of a branch falls below its "Critical Collateral Ratio” (CCR), the system imposes extra restrictions on borrowing in order to maintain system health and branch overcollateralization.
-
-When the branch TCR falls below the CCR of 150%, these borrowing restrictions apply:
-
-* Opening a Trove: only allowed if it brings the resulting TCR > 150%
-* Closing a Trove: only allowed if it brings the resulting TCR > 150%
-* Adjusting a Trove: any new borrowing must bring the resulting TCR > 150%, and any collateral withdrawal of value $x USD must be matched by a repayment of at least x BOLD
-* Adjusting a Trove’s interest rate: only allowed if it doesn’t mint new debt via a premature adjustment fee
+Additionally, when the TCR of a branch falls below its "Critical Collateral Ratio” (CCR), the system enters [Safety Mode](borrowing-and-liquidations.md#what-is-safety-mode).
 
 ### What to do if I have issues with a frontend?
 
