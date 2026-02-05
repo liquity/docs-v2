@@ -217,13 +217,17 @@ Please note that more advanced strategies like ‘selling’ Trovess on secondar
 
 ### What is Safety Mode?
 
-Safety Mode kicks in when the overall health of a specific collateral branch (called the Total Collateral Ratio, or TCR) drops below a certain level known as the Critical Collateral Ratio (CCR). This means that Safety Mode can be triggered for one collateral branch while others remain unaffected
+Safety Mode kicks in when the overall health of a specific collateral branch (called the Total Collateral Ratio, or TCR) drops below a certain level known as the Critical Collateral Ratio (CCR). This means that Safety Mode can be triggered for one collateral branch while others remain unaffected.
+
+The CCR for the ETH branch is 150%, while the CCRs for rETH and wstETH are both 160%.
 
 In this state the following actions are not possible:
 
 1. Adjusting interest rate prematurely: The system disallows a premature rate change, which would incur a fee. This would increase the debt in the system, and therefore immediately decrease the current TCR
 2. Purely withdrawing collateral&#x20;
 3. Purely drawing new BOLD debt
+
+Although these restrictions do limit the ability to fully close positions, these funds remain in the system and are not lost. Once the TCR rises past the CCR again, the restrictions are lifted.
 
 Read more here: [https://www.liquity.org/blog/liquity-v2-safety-mode](https://www.liquity.org/blog/liquity-v2-safety-mode)
 
