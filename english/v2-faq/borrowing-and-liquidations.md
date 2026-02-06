@@ -260,11 +260,15 @@ The liquidator can freely choose between two fallback liquidation modes for the 
 
 The removal of Recovery Mode in V2 ensures that borrowers can benefit from a permanently high LTV regardless of the system state, and up to 11x multiplication.
 
+Instead, the [Safety Mode](borrowing-and-liquidations.md#what-is-safety-mode) was introduced to help support a healthy collateral ratio while being less harsh on users. It restricts some actions that decrease the branch collateral ratio, but does not put the trove at risk of liquidation, unlike Recovery Mode in V1.
+
 In Liquity V1 it is mainly needed due to a lack of sustainable yield for the Stability Pool, increasing the reliance on redistribution for liquidations in the long term. Liquity V2 pays out a real yield, and aims to keep the Stability Pools backing sufficiently large through its adaptive redemption logic.
 
 As a replacement for the Recovery Mode, the system may shut down borrow markets whose total collateralization ratio (TCR) falls below 110% (for ETH) or 120% (for wstETH and rETH). The shutdown is performed by incentivizing redemptions against the respective collateral (see [this](https://liquity.gitbook.io/v2-whitepaper/liquity-v2-whitepaper/functionality-and-use-cases#c9aukpugrj32) for more details)
 
-Additionally, when the TCR of a branch falls below its "Critical Collateral Ratio” (CCR), the system enters [Safety Mode](borrowing-and-liquidations.md#what-is-safety-mode).
+
+
+
 
 ### What to do if I have issues with a frontend?
 
