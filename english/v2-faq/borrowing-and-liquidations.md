@@ -264,11 +264,38 @@ Instead, the [Safety Mode](borrowing-and-liquidations.md#what-is-safety-mode) wa
 
 In Liquity V1 it is mainly needed due to a lack of sustainable yield for the Stability Pool, increasing the reliance on redistribution for liquidations in the long term. Liquity V2 pays out a real yield, and aims to keep the Stability Pools backing sufficiently large through its adaptive redemption logic.
 
-As a replacement for the Recovery Mode, the system may shut down borrow markets whose total collateralization ratio (TCR) falls below 110% (for ETH) or 120% (for wstETH and rETH). The shutdown is performed by incentivizing redemptions against the respective collateral (see [this](https://liquity.gitbook.io/v2-whitepaper/liquity-v2-whitepaper/functionality-and-use-cases#c9aukpugrj32) for more details)
+As a replacement for the Recovery Mode, the system may shut down borrow markets whose total collateralization ratio (TCR) falls below 110% (for ETH) or 120% (for wstETH and rETH). The shutdown is performed by incentivizing redemptions against the respective collateral (see [this](https://liquity.gitbook.io/v2-whitepaper/liquity-v2-whitepaper/functionality-and-use-cases#c9aukpugrj32) for more details).
 
+### What is Shutdown Mode?
 
+Shutdown Mode is triggered when the Total Collateral Ratio (TCR) of a specific branch drops below the Shutdown Collateral Ratio (SCR), or when the branch's price oracle fails. Like Safety Mode, Shutdown Mode affects each collateral branch independently. The SCR for the ETH branch is 110%, while the SCRs for rETH and wstETH are both 120%.
 
+Once a branch enters Shutdown Mode, the following actions are permanently disabled:
 
+* Opening new loans
+* Adjusting existing loans (adding/withdrawing collateral, borrowing/repaying BOLD)
+* Changing interest rates
+* All batch manager and delegation operations
+
+The only actions allowed are:
+
+* Closing a loan — Borrowers can fully close their positions and withdraw all collateral
+* Claiming surplus collateral — From previous liquidations
+* Shutdown redemptions — A special redemption mechanism (see below)
+
+Interest stops accruing at the moment of shutdown.\
+Unlike Safety Mode, Shutdown Mode is permanent and cannot be reversed.\
+\
+**Shutdown Redemptions**\
+Shutdown redemptions are a special redemption mechanism that becomes available exclusively when a branch enters Shutdown Mode. Their goal is to incentivize the orderly wind-down of a shutdown branch.
+
+Key differences from standard redemptions:
+
+* 0% redemption fee — No dynamic fee is charged, unlike standard redemptions where the fee increases with activity
+* 2% collateral bonus — Redeemers receive 2% more collateral than the face value of the BOLD they burn. For example, redeeming 100 BOLD returns $102 worth of collateral
+* Redeemers can choose which loans to redeem from, rather than being forced to redeem from the riskiest loans first. The frontend automatically selects the optimal set of loans
+
+Standard redemptions remain available on active (non-shutdown) branches but will skip any branch that is in Shutdown Mode.
 
 ### What to do if I have issues with a frontend?
 
