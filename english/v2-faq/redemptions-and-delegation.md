@@ -127,6 +127,32 @@ You will join that delegate's batch inheriting its interest rate.
 
 You will be also charged the upfront fee, this is in place to stop "batch hopping" - more [info](https://github.com/liquity/bold?tab=readme-ov-file#batches-and-upfront-fees).
 
+### What does “temporarily shielded from redemptions” mean? <a href="#docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597" id="docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597"></a>
+
+A branch is temporarily shielded from redemptions when the BOLD deposited in its Stability Pool exceeds the branch’s total debt.
+
+In that situation, there is no “outside debt” (debt not already covered by the branch’s own Stability Pool), so redemptions are routed to other branches instead.
+
+Practically, this means you can borrow at the 0.5% minimum rate on a shielded branch without taking on redemption risk, as long as the branch has no outside debt.
+
+**Why temporarily?**
+
+The shield depends on the current balance between Stability Pool deposits and branch debt.
+
+A branch can stop being shielded if:
+
+* Borrowers open more debt on the branch, or
+* Stability Pool depositors withdraw BOLD
+
+This can cause branch debt to exceed Stability Pool deposits.
+
+The shield should therefore be treated as a live condition to monitor, not a permanent property of the branch.
+
+**Where to monitor?**
+
+* [Debt vs. SP Deposits per branch](https://dune.com/queries/7372072/11303811): track day by day whether each branch's Stability Pool covers its outstanding debt.
+* [Outside debt per branch](https://dune.com/queries/5156960/8493313): see the current outside debt per branch.
+
 ### What happens if there are issues with the smart contract for delegating interest rates? <a href="#docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597" id="docs-internal-guid-441d8c3f-7fff-4efa-6319-4ba00d908597"></a>
 
 Your Trove would not be affected - the only thing would get affected is the interest rate at which your position is set.
