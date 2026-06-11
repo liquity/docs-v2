@@ -8,7 +8,7 @@ description: >-
 
 ### Technical papers
 
-[Whitepaper](https://bafybeibjommrelqjw22vewpddgfdnm5geoz747gv2zeuy7njwivpfcy3xa.ipfs.w3s.link/Liquity%20v2%20-%20Whitepaper%20rev.%200.3%20\(November%2C%202024\)%20\(1\).pdf)
+[Whitepaper](https://magenta-medical-wildcat-522.mypinata.cloud/ipfs/bafybeihjijrgmytiwb4t7mqgogyyupbn342rregwff7fprlqjytko242ma)
 
 ### Code base (Github)
 
